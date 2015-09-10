@@ -56,11 +56,11 @@ html {
     -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
     filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
 	transform: translateX(0);
-    -webkit-animation: bob-frame 2s ease-in-out infinite alternate;
+    -webkit-animation: swing 2s ease-in-out infinite alternate;
 	
 }
 
-@-webkit-keyframes bob-frame {
+@-webkit-keyframes swing {
     0% {
         -webkit-transform: translateX(0);
     }
@@ -69,7 +69,7 @@ html {
     }
 }
 
-@keyframes bob-frame {
+@keyframes swing {
     0% {
         transform: translateX(0)
     }
