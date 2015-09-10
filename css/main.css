@@ -1,0 +1,126 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.body {
+	margin: 0;
+    padding: 0;
+}
+
+.wood {
+	background-image: url("../images/Wooden_Backdrop.jpg");
+  	padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    height: calc(100vh); 
+    overflow: hidden;
+    position: relative;
+}
+
+.about {
+	max-width: 40em;
+	color: white;
+	margin: 0 auto;
+	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
+    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
+    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
+    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
+	padding-left: 2em;
+	padding-right: 2em;
+	
+}
+
+.sign {
+	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+	transform: translateX(0);
+    -webkit-animation: bob-frame 2s ease-in-out infinite alternate;
+	
+}
+
+@-webkit-keyframes bob-frame {
+    0% {
+        -webkit-transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(15px);
+    }
+}
+
+@keyframes bob-frame {
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(15px);
+    }
+}
+
+.maybe {
+	max-width: 30em;
+	margin: 0 auto;
+	position: relative;
+}
+
+.links-nav {
+	text-align: center;
+	padding-top: .8em;
+ 	margin: 0 auto;
+ 	list-style-type: none;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.links {
+	padding: 0;
+}
+
+.links li {
+    margin: 0 auto;
+    display: inline-block; 
+ }
+
+.facebook {
+	width: 5em;
+    margin: 0;  
+	padding-top: .5em;
+	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+}
+
+.instagram {
+ 	width: 5em;
+    margin: 0;  
+	padding-top: .5em;
+	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+}
