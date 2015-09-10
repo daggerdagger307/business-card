@@ -47,7 +47,6 @@ html {
     filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
 	padding-left: 2em;
 	padding-right: 2em;
-	
 }
 
 .sign {
@@ -80,7 +79,7 @@ html {
 }
 
 .maybe {
-	max-width: 30em;
+	max-width: 20em;
 	margin: 0 auto;
 	position: relative;
 }
@@ -91,7 +90,6 @@ html {
  	margin: 0 auto;
  	list-style-type: none;
     overflow: hidden;
-    text-decoration: none;
 }
 
 .links {
@@ -102,6 +100,20 @@ html {
     margin: 0 auto;
     display: inline-block; 
  }
+
+.email {
+	text-decoration: none;
+	max-width: 40em;
+	color: white;
+	margin: 0 auto;
+	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
+    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
+    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
+    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
+	padding-left: 2em;
+	padding-right: 2em;
+}
 
 .facebook {
 	width: 5em;
@@ -123,4 +135,12 @@ html {
     -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
     -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
     filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+}
+
+@media only screen and (min-width: 38em) {
+	
+	.maybe {
+		max-width: 30em;
+	}
+	
 }
