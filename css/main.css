@@ -55,26 +55,29 @@ html {
     -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
     -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
     filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
-	transform: translateX(0);
-    -webkit-animation: swing 2s ease-in-out infinite alternate;
-	
+	animation: swing 3s ease-in-out infinite alternate;
+    -webkit-animation: swing 3s ease-in-out infinite alternate;
+	transform-origin: top;
+	max-width: 30em;
+	margin: 0 auto;
+	text-align: center;
 }
 
 @-webkit-keyframes swing {
-    0% {
-        -webkit-transform: translateX(0);
+    from {
+        -webkit-transform: rotate(0deg);
     }
-    100% {
-        -webkit-transform: translateX(15px);
+    to {
+        -webkit-transform: rotate(3deg);
     }
 }
 
 @keyframes swing {
-    0% {
-        transform: translateX(0)
+    from {
+        transform: rotate(0deg)
     }
-    100% {
-        transform: translateX(15px);
+    to {
+        transform: rotate(3deg);
     }
 }
 
