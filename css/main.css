@@ -37,14 +37,14 @@ html {
 }
 
 .about {
-	max-width: 40em;
-	color: white;
-	margin: 0 auto;
 	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
     -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
     -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
     -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
     filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
+	max-width: 40em;
+	color: white;
+	margin: 0 auto;
 	padding-left: 2em;
 	padding-right: 2em;
 }
@@ -105,39 +105,39 @@ html {
  }
 
 .email {
-	text-decoration: none;
-	max-width: 40em;
-	color: white;
-	margin: 0 auto;
 	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
     -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
     -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
     -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
     filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.5));
+	text-decoration: none;
+	max-width: 40em;
+	color: white;
+	margin: 0 auto;
 	padding-left: 2em;
 	padding-right: 2em;
 }
 
 .facebook {
+	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
 	width: 5em;
     margin: 0;  
 	padding-top: .5em;
-	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
-    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
-    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
-    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
-    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
 }
 
 .instagram {
- 	width: 5em;
-    margin: 0;  
-	padding-top: .5em;
 	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
     -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
     -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
     -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
     filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.6));
+ 	width: 5em;
+    margin: 0;  
+	padding-top: .5em;
 }
 
 @media only screen and (min-width: 38em) {
@@ -145,5 +145,4 @@ html {
 	.maybe {
 		max-width: 30em;
 	}
-	
 }
