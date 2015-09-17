@@ -101,6 +101,7 @@ html {
 .links li {
     margin: 0 auto;
     display: inline-block; 
+	padding: 0;
  }
 
 .email {
